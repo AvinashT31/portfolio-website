@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#first-section{
+    border: 1px solid black;
+    width: 100%;
+    height: 500px;
+}
+.navbar{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left-section{
+  border: 1px solid black;
+}
+
+.mid-section{
+  border: 1px solid black;
+  width: 40%;
+  margin-right: 300px;
+}
+
+.mid-section ul{
+ display: flex;
+ justify-content: space-around;
+}
+
+.mid-section ul li{
+  list-style: none;
+  margin-top: 10px;
+  cursor: pointer;
+
+}
+
+.mid-section ul li a{
+ text-decoration: none;
+ 
+}
+
+.mid-section ul li a:hover{
+  color: blueviolet;  
+
+}
+
+.right-section{
+ /* border: 1px solid black; */
+ display: flex;
+ justify-content: space-around;
+ width: 15%;
+ margin-left: 10px;
+}
+
+
+.right-section > div:nth-child(1) i{
+    border: 1px solid black;
+    width: 42px;
+    height: 39px;
+    padding-top: 10px;
+    padding-left: 11px;
+    border-radius: 29px;
+}
+
+.right-section h4{
+    border: 1px solid black;
+    width: 157px;
+    padding-left: 24px;
+    border-radius: 18px;
+    padding-top: 8px;
+}
+
+.my-info-member{
+    display: flex;
+    ;
+}
+.my-info-item{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.my-info-item > h2{
+    border: 1px solid black;
+    width: 34%;
+    font-size: 30px;
+    height: 50px;
+    padding-left: 44px;
+    padding-top: 4px;
+    margin-left: 105px;
+    border-radius: 27px;
+    margin-top: 12px;
+}
+
+.my-info-item > button{
+    margin-top: 27px;
+    height: 41px;
+    width: 114px;
+    border-radius: 20px;
+    margin-left: 105px;
+    font-size: 15px;
+}
+
+.my-info-item1{
+    display: flex;
+}
+
+.my-info-item1 > div{
+    width: 100px;
+    height: 92px;
+    border: 1px solid black;
+    margin-left: 102px;
+    border-radius: 48px;
+    margin-top: 68px;
+}
+
+.my-info-item1 > span{
+    margin-left: 45px;
+    margin-top: 93px;
+    border: 1px solid black;
+    margin-bottom: 24px;
+    font-size: 30px;
+    width: 14%;
+    padding-top: 7px;
+    padding-left: 18px;
+    border-radius: 20px;
+    height: 50px;
+}
+
+.my-info-item2{
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
+}
