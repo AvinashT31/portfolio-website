@@ -258,7 +258,7 @@
 }
 
 .third-section-item1{
-    border: 1px solid black;
+    border: 1px solid grey;
     margin-top: 100px;
     width: 40%;
     height: 300px;  
@@ -266,7 +266,7 @@
 }
 
 .third-section-item1 > div:nth-child(1){
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 50px;
     padding-top: 1%;
     padding-left: 5%;
@@ -275,18 +275,37 @@
 }
 
 .third-section-item1 > div:nth-child(2){
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 250px;
 
 }
 
-.third-section-item1 > div:nth-child(2) > p {
-    border: 1px solid black;
-    height: 62px;
+.third-section-item1 > div:nth-child(2) > table {
+    /* border: 1px solid black; */
+   width: 100%;
+   height: 248px;
+   border-collapse: collapse;
 }
 
+table tr td:nth-child(1){
+ border: 1px solid grey;;  
+ color: rgb(20,183,137);
+ font-size: 28px;
+}
 
+table tr td:nth-child(2){
+    border: 1px solid grey;;
+    color: grey;
+    font-size: 25px;    
+}
 
+table p{
+    margin-left: 20px;
+}
+
+table tr:nth-child(2),tr:nth-child(4){
+  background-color: white;
+}
 
 
 
